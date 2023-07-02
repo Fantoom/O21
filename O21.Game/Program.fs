@@ -120,6 +120,6 @@ let main(args: string[]): int =
         }
         runGame config
 
-    | _ -> printfn "Usage:\nexport <inputFile> <outDir>: export resources\n<dataDir>: start the game"
+    | _ -> printfn "Usage:\nexport <inputFile> <outDir>: export resources\n<dataDir> [width] [height]: start the game"
 
     0
